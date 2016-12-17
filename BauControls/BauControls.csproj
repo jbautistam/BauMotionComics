@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C4411755-086A-464B-A62D-BE0CCD18EFB9}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bau.Controls</RootNamespace>
+    <AssemblyName>BauControls</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Files\PathSelect.xaml.cs">
+      <DependentUpon>PathSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Files\FileSelect.xaml.cs">
+      <DependentUpon>FileSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Graphical\ImageZoomBoxPanel.cs" />
+    <Compile Include="Notifications\WindowNotifications.xaml.cs">
+      <DependentUpon>WindowNotifications.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Notifications\NotificationModel.cs" />
+    <Compile Include="Notifications\NotificationsModelCollection.cs" />
+    <Compile Include="Themes\ThemesConstants.cs" />
+    <Compile Include="TreeViews\TreeViewExtended.cs" />
+    <Compile Include="WebExplorers\WebExplorerExtended.xaml.cs">
+      <DependentUpon>WebExplorerExtended.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WebExplorers\WebExplorerFunctionEventArgs.cs" />
+    <Compile Include="WebExplorers\WebExplorerScriptingHelper.cs" />
+    <Page Include="Files\PathSelect.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Files\FileSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Notifications\DesignTimeNotificationData.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Notifications\WindowNotifications.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\ButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WebExplorers\WebExplorerExtended.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibHelper\LibHelper.csproj">
+      <Project>{D9E2DC6B-3E54-421F-9231-A4F3A799BC4C}</Project>
+      <Name>LibHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ookii.Dialogs.Wpf\Ookii.Dialogs.Wpf.csproj">
+      <Project>{D01B1D20-8F5B-4834-8E5C-C7EC6DD587D4}</Project>
+      <Name>Ookii.Dialogs.Wpf</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Blog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\EntryInteresting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\EntryNotRead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\EntryRead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\NewItem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\News.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\PageBase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Project.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Properties.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Reference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\SaveAs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Section.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Template.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\ArrowFirst.png" />
+    <Resource Include="Themes\Images\ArrowLast.png" />
+    <Resource Include="Themes\Images\ArrowNext.png" />
+    <Resource Include="Themes\Images\ArrowPrevious.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Solution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Notifications\facebook-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Notifications\microsoft-windows-8-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Notifications\notification-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\Notifications\Radiation_warning_symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Images\WebBrowser.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

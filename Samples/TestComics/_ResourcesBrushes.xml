@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+	<SolidBrush Key="BrsRed" Color="FF0000" />
+	<SolidBrush Key="BrsBlue" Color="0000FF" />
+
+	<RadialBrush Key="BrsRadialRed" Center="0.54326,0.45465" RadiusX="0.602049" RadiusY="1.02049" Origin="0.4326,0.45465">
+		<Stop Color="FFFFC154" Offset="0"/>
+		<Stop Color="FFE41E18" Offset="0.718518495559692"/>
+		<Stop Color="FFA50000" Offset="1"/>
+	</RadialBrush>
+
+	<LinearBrush Key="BrsLinearRed" Start="0,0" End="0,1" SpreadMethod="Pad">
+		<Stop Color="77FF0000" Offset="0"/>
+		<Stop Color="FFFF0000" Offset="1"/>
+	</LinearBrush>
+
+	<RadialBrush Key="BrsRadialBlue" Center="0.54326,0.45465" RadiusX="0.602049" RadiusY="1.02049" Origin="0.4326,0.45465">
+		<Stop Color="57ffe6" Offset="0"/>
+		<Stop Color="008ee7" Offset="0.718518495559692"/>
+		<Stop Color="2c0072" Offset="1"/>
+	</RadialBrush>
+
+	<LinearBrush Key="BrsLinearBlue" Start="0,0" End="1,1" SpreadMethod="Pad">
+		<Stop Color="770000FF" Offset="0"/>
+		<Stop Color="FF0000FF" Offset="1"/>
+	</LinearBrush>
+
+	<RadialBrush Key="BrsRadialGreen" Center="0.54326,0.45465" RadiusX="0.602049" RadiusY="1.02049" Origin="0.4326,0.45465">
+		<Stop Color="f3ff57" Offset="0"/>
+		<Stop Color="6cc715" Offset="0.718518495559692"/>
+		<Stop Color="186f00" Offset="1"/>
+	</RadialBrush>
+
+	<LinearBrush Key="BrsLinearGreen" Start="0,0" End="1,1" SpreadMethod="Pad">
+		<Stop Color="7700FF00" Offset="0"/>
+		<Stop Color="FF00FF00" Offset="1"/>
+	</LinearBrush>
+
+	<RadialBrush Key="BrsRadialBlack" Center="0.54326,0.45465" RadiusX="0.602049" RadiusY="1.02049" Origin="0.4326,0.45465">
+		<Stop Color="8a8a8a" Offset="0"/>
+		<Stop Color="242424" Offset="0.718518495559692"/>
+		<Stop Color="000000" Offset="1"/>
+	</RadialBrush>
+
+	<LinearBrush Key="BrsLinearBlack" Start="0,0" End="11" SpreadMethod="Pad">
+		<Stop Color="77000000" Offset="0"/>
+		<Stop Color="FF000000" Offset="1"/>
+	</LinearBrush>
+
+	<RadialBrush Key="BrsRadialYellow" Center="0.54326,0.45465" RadiusX="0.602049" RadiusY="1.02049" Origin="0.4326,0.45465">
+		<Stop Color="ffffe1" Offset="0"/>
+		<Stop Color="f8e737" Offset="0.461"/>
+		<Stop Color="e79b00" Offset="1"/>
+	</RadialBrush>
+
+	<LinearBrush Key="BrsLinearYellow" Start="0,0" End="1,1" SpreadMethod="Pad">
+		<Stop Color="77E79B00" Offset="0"/>
+		<Stop Color="FFE79B00" Offset="1"/>
+	</LinearBrush>
+</Resources>

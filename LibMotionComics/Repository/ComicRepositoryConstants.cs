@@ -1,0 +1,114 @@
+﻿using System;
+
+namespace Bau.Libraries.LibMotionComic.Repository
+{
+	/// <summary>
+	///		Clase base para los sistemas de carga y grabación de cómics
+	/// </summary>
+	internal class ComicRepositoryConstants 
+ 	{ // Etiquetas de cómic
+			internal const string cnstStrTagRoot = "Comic";
+			internal const string cnstStrTagInclude = "Include";
+			internal const string cnstStrTagTitle = "Title";
+			internal const string cnstStrTagSummary = "Summary";
+			internal const string cnstStrTagThumbFileName = "ThumbFileName";
+			internal const string cnstStrTagResources = "Resources";
+			internal const string cnstStrTagLanguage = "Language";
+			internal const string cnstStrTagDefault = "Default";
+			internal const string cnstStrTagImage = "Image";
+			internal const string cnstStrTagShape = "Shape";
+			internal const string cnstStrTagFrame = "Frame";
+			internal const string cnstStrTagPen = "Pen";
+			internal const string cnstStrTagFigure = "Figure";
+			internal const string cnstStrTagData = "Data";
+			internal const string cnstStrTagBalloon = "Balloon";
+			internal const string cnstStrTagText = "Text";
+			internal const string cnstStrTagPage = "Page";
+			internal const string cnstStrTagKey = "Key";
+			internal const string cnstStrTagFileName = "FileName";
+			internal const string cnstStrTagTimeLine = "TimeLine";
+			internal const string cnstStrTagActionShowImage = "Show";
+			internal const string cnstStrTagActionResize = "Resize";
+			internal const string cnstStrTagVisible = "Visible";
+			internal const string cnstStrTagOpacity = "Opacity";
+			internal const string cnstStrTagZIndex = "ZIndex";
+			internal const string cnstStrTagLeft = "Left";
+			internal const string cnstStrTagTop = "Top";
+			internal const string cnstStrTagWidth = "Width";
+			internal const string cnstStrTagHeight = "Height";
+			internal const string cnstStrTagStretch = "Stretch";
+			internal const string cnstStrTagActionRotate = "Rotate";
+			internal const string cnstStrTagAngle = "Angle";
+			internal const string cnstStrTagOriginX = "OriginX";
+			internal const string cnstStrTagOriginY = "OriginY";
+			internal const string cnstStrTagActionZoom = "Zoom";
+			internal const string cnstStrTagActionTranslate = "Translate";
+			internal const string cnstStrTagActionSetZIndex = "SetZIndex";
+			internal const string	cnstStrTagSetActionViewBox = "SetViewBox";
+			internal const string	cnstStrTagSetActionLinearBrush = "SetLinearBrush";
+			internal const string	cnstStrTagSetActionRadialBrush = "SetRadialBrush";
+			internal const string cnstStrTagActionPath = "Path";
+			internal const string cnstStrTagScaleX = "ScaleX";
+			internal const string cnstStrTagScaleY = "ScaleY";
+			internal const string cnstStrTagRotateWithTangent = "RotateWithTangent";
+			internal const string cnstStrTagResourceKey = "ResourceKey";
+			internal const string cnstStrTagColor = "Color";
+			internal const string cnstStrTagContent = "Content";
+			internal const string cnstStrTagBold = "Bold";
+			internal const string cnstStrTagItalic = "Italic";
+			internal const string cnstStrTagFont = "Font";
+			internal const string cnstStrTagSize = "Size";
+			internal const string cnstStrTagFillRule = "FillRule";
+			internal const string cnstStrTagTransform = "Transform";
+			internal const string cnstStrTagTranslate = "Translate";
+			internal const string cnstStrTagMatrix = "Matrix";
+			internal const string cnstStrTagRotate = "Rotate";
+			internal const string cnstStrTagScale = "Scale";
+			internal const string cnstStrTagSolidBrush = "SolidBrush";
+			internal const string cnstStrTagImageBrush = "ImageBrush";
+			internal const string cnstStrTagRadialBrush = "RadialBrush";
+			internal const string cnstStrTagLinearBrush = "LinearBrush";
+			internal const string cnstStrTagStart = "Start";
+			internal const string cnstStrTagEnd = "End";
+			internal const string cnstStrTagDuration = "Duration";
+			internal const string cnstStrTagAcceleration = "AccelerationRatio";
+			internal const string cnstStrTagDeceleration = "DecelerationRatio";
+			internal const string cnstStrTagSpeed = "SpeedRatio";
+			internal const string cnstStrTagBounceEase = "BounceEase";
+			internal const string cnstStrTagBounces = "Bounces";
+			internal const string cnstStrTagBounciness = "Bounciness";
+			internal const string cnstStrTagEasingMode = "EasingMode";
+			internal const string cnstStrTagBackEase = "BackEase";
+			internal const string cnstStrTagAmplitude = "Amplitude";
+			internal const string cnstStrTagCircleEase = "CircleEase";
+			internal const string cnstStrTagCubicEase = "CubicEase";
+			internal const string cnstStrTagElasticEase = "ElasticEase";
+			internal const string cnstStrTagOscillations = "Oscillations";
+			internal const string cnstStrTagSpringiness = "Springiness";
+			internal const string cnstStrTagQuadraticEase = "QuadraticEase";
+			internal const string cnstStrTagQuarticEase = "QuarticEase";
+			internal const string cnstStrTagSineEase = "SineEase ";
+			internal const string cnstStrTagExponentialEase  = "ExponentialEase";
+			internal const string cnstStrTagExponent = "Exponent";
+			internal const string cnstStrTagPowerEase = "PowerEase";
+			internal const string cnstStrTagPower = "Power";
+			internal const string cnstStrTagCenter = "Center";
+			internal const string cnstStrTagRadiusX = "RadiusX";
+			internal const string cnstStrTagRadiusY = "RadiusY";
+			internal const string cnstStrTagOrigin = "Origin";
+			internal const string cnstStrTagStop = "Stop";
+			internal const string cnstStrTagOffset = "Offset";
+			internal const string cnstStrTagSpread = "SpreadMethod";
+			internal const string cnstStrTagMustAnimate = "MustAnimate";
+			internal const string cnstStrTagDots = "Dots";
+			internal const string cnstStrTagStartLineCap = "StartLineCap";
+			internal const string cnstStrTagCapDots = "CapDots";
+			internal const string cnstStrTagEndLineCap = "EndLineCap";
+			internal const string cnstStrTagJoinMode = "JoinMode";
+			internal const string cnstStrTagDashOffset = "DashOffset";
+			internal const string cnstStrTagMiterLimit = "MiterLimit";
+			internal const string cnstStrTagViewBox = "ViewBox";
+			internal const string cnstStrTagViewPort = "ViewPort";
+			internal const string cnstStrTagTileMode = "TileMode";
+	}
+}

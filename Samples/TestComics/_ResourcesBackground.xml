@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+	<Image Key="Bg1" FileName="Images\Background\bg1.jpg" />
+	<Image Key="Bg2" FileName="Images\Background\bg2.jpg" />
+</Resources>

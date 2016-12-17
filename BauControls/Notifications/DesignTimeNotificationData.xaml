@@ -1,0 +1,10 @@
+﻿<NotificationsModelCollection xmlns="clr-namespace:Bau.Controls.Notifications">
+	<NotificationModel ID="1" Title="Notification #1" ImageUrl="pack://application:,,,/Themes/Images/Notifications/notification-icon.png" 
+										 Message="Este es un mensaje muy largo que se utiliza como prueba para ver la longitud de las etiquetas de los mensajes de notificación que podemos mostrar en nuestro control." />
+	<NotificationModel ID="2" Title="Notification #2" ImageUrl="pack://application:,,,/Themes/Images/Notifications/microsoft-windows-8-logo.png" 
+										 Message="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+	<NotificationModel ID="3" Title="Notification #3" ImageUrl="pack://application:,,,/Themes/Images/Notifications/facebook-button.png" 
+										 Message="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+	<NotificationModel ID="4" Title="Notification #4" ImageUrl="pack://application:,,,/Themes/Images/Notifications/Radiation_warning_symbol.png" 
+										 Message="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+</NotificationsModelCollection>
