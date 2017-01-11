@@ -1,6 +1,6 @@
 # BauMotionComics
 
-Quien me conoce sabe que soy aficionado a los cómics, de hecho, ya he desarrollado anteriormente alguna aplicación relacionada con la lectura de novelas gráficas como BauComicBooks para los archivos de cómic clásicos con formato cbr / cbz.
+Quien me conoce sabe que soy aficionado a los cómics, de hecho, ya he desarrollado anteriormente alguna aplicación relacionada con la lectura de novelas gráficas como [BauComicBooks](https://github.com/jbautistam/ComicBook) para los archivos de cómic clásicos con formato cbr / cbz.
 
 Si has visto algúna vez el formato de un archivo cbr, éste no es más que una serie de imágenes comprimidas en los que cada página es a su vez una imagen fija.
 
