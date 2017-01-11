@@ -14,6 +14,6 @@ El caso es que ese tipo de cómics me llevó a preguntarme si existían otros fo
 
 **BauMotionComics** por su parte es una aplicación que aprovecha las posibilidades que ofrece WPF para gestionar imágenes, fondos y animaciones en la escritura de cómics que incorporasen movimiento pero sin pasarse. Esta aplicación, por supuesto también se puede utilizar para la creación de presentaciones.
 
-Así nació BauMotionComics . Con esta herramienta podemos hacer tanto cómics como presentaciones como éstas [YouTube](https://youtu.be/ej4IG_OFMyc)
+Así nació BauMotionComics . Con esta herramienta podemos hacer tanto cómics como presentaciones como ésta demostración que he dejado en [YouTube](https://youtu.be/ej4IG_OFMyc)
 
 **Nota:** no soy ni dibujante ni artista así que las imágenes están recogidas de algunos lugares de Internet como Tapastic , espero que a nadie le moleste.
