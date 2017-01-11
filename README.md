@@ -17,3 +17,7 @@ El caso es que ese tipo de cómics me llevó a preguntarme si existían otros fo
 Así nació BauMotionComics . Con esta herramienta podemos hacer tanto cómics como presentaciones como ésta demostración que he dejado en [YouTube](https://youtu.be/ej4IG_OFMyc)
 
 **Nota:** no soy ni dibujante ni artista así que las imágenes están recogidas de algunos lugares de Internet como Tapastic , espero que a nadie le moleste.
+
+# Wiki
+
+Para ver toda la información sobre la aplicación, consulte nuestro [Wiki](https://github.com/jbautistam/BauMotionComics/wiki/Introducci%C3%B3n)
