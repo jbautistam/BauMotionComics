@@ -74,7 +74,6 @@
     <Compile Include="MLSerializer.cs" />
     <Compile Include="MLNameSpace.cs" />
     <Compile Include="MLNameSpacesCollection.cs" />
-    <Compile Include="Services\Debug\DebugMLFile.cs" />
     <Compile Include="Services\IParser.cs" />
     <Compile Include="Services\IWriter.cs" />
     <Compile Include="Services\JSON\JsonParser.cs" />
